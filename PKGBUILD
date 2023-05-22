@@ -7,12 +7,26 @@ pkgver=v0.12.1a0.r92.gf0206012
 pkgrel=1
 pkgdesc='TUI and CLI client for the Transmission daemon'
 url='https://github.com/rndusr/stig'
-depends=('python' 'python-urwid' 'python-urwidtrees' 'python-aiohttp'
-	 'python-pyxdg' 'python-blinker' 'python-natsort')
-makedepends=('python-setuptools')
-optdepends=('python-pprofile: profiling'
-	    'python-setproctitle: prettifies the process name')
-conflicts=('stig' 'stig-git')
+depends=(
+    'python'
+    'python-urwid'
+    'python-urwidtrees'
+    'python-aiohttp'
+    'python-pyxdg'
+    'python-blinker'
+    'python-natsort'
+)
+makedepends=(
+    'python-setuptools'
+)
+optdepends=(
+    'python-pprofile: profiling'
+    'python-setproctitle: prettifies the process name'
+)
+conflicts=(
+    'stig'
+    'stig-git'
+)
 license=('GPL')
 arch=('any')
 
