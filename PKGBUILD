@@ -15,6 +15,7 @@ depends=(
     'python-pyxdg'
     'python-blinker'
     'python-natsort'
+    'python-bidict'
 )
 makedepends=('python-setuptools')
 optdepends=(
