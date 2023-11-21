@@ -3,15 +3,24 @@
 
 _pkgname=stig
 pkgname=${_pkgname}-ekman-git
-pkgver=v0.12.1a0.r92.gf0206012
+pkgver=v0.12.7a0.r67.g5203c52f
 pkgrel=1
 pkgdesc='TUI and CLI client for the Transmission daemon'
 url='https://github.com/rndusr/stig'
-depends=('python' 'python-urwid' 'python-urwidtrees' 'python-aiohttp'
-	 'python-pyxdg' 'python-blinker' 'python-natsort')
+depends=(
+    'python'
+    'python-urwid'
+    'python-urwidtrees'
+    'python-aiohttp'
+	'python-pyxdg'
+    'python-blinker'
+    'python-natsort'
+)
 makedepends=('python-setuptools')
-optdepends=('python-pprofile: profiling'
-	    'python-setproctitle: prettifies the process name')
+optdepends=(
+    'python-pprofile: profiling'
+    'python-setproctitle: prettifies the process name'
+)
 conflicts=('stig' 'stig-git')
 license=('GPL')
 arch=('any')
