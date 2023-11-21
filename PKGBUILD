@@ -12,7 +12,7 @@ depends=(
     'python-urwid'
     'python-urwidtrees'
     'python-aiohttp'
-	'python-pyxdg'
+    'python-pyxdg'
     'python-blinker'
     'python-natsort'
 )
@@ -31,16 +31,16 @@ sha256sums=('SKIP')
 
 
 pkgver() {
-  cd "$srcdir/${_pkgname}"
-  git describe --long --tags | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+    cd "$srcdir/${_pkgname}"
+    git describe --long --tags | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
 }
 
 build() {
-	cd ${_pkgname}
-	python setup.py build
+    cd ${_pkgname}
+    python setup.py build
 }
 
 package() {
-	cd ${_pkgname}
-	python setup.py install --root="${pkgdir}" --optimize=1 --skip-build
+    cd ${_pkgname}
+    python setup.py install --root="${pkgdir}" --optimize=1 --skip-build
 }
