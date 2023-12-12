@@ -7,6 +7,7 @@ pkgver=v0.12.7a0.r67.g5203c52f
 pkgrel=1
 pkgdesc='TUI and CLI client for the Transmission daemon'
 url='https://github.com/rndusr/stig'
+provides=('stig')
 depends=(
     'python'
     'python-urwid'
