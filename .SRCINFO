@@ -1,7 +1,7 @@
 pkgbase = stig-ekman-git
 	pkgdesc = TUI and CLI client for the Transmission daemon
 	pkgver = v0.12.7a0.r67.g5203c52f
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/rndusr/stig
 	arch = any
 	license = GPL
@@ -16,7 +16,7 @@ pkgbase = stig-ekman-git
 	depends = python-bidict
 	optdepends = python-pprofile: profiling
 	optdepends = python-setproctitle: prettifies the process name
-	provides = stig=${pkgver}
+	provides = stig=v0.12.7a0.r67.g5203c52f
 	conflicts = stig
 	conflicts = stig-git
 	source = git+https://github.com/rsekman/stig.git#branch=ekman
