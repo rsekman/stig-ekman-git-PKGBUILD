@@ -3,14 +3,14 @@
 
 _pkgname=stig
 pkgname=${_pkgname}-ekman-git
-pkgver=v0.12.7a0.r67.g5203c52f
-pkgrel=3
+pkgver=v0.12.8a0.r74.gf0811e84
+pkgrel=2
 pkgdesc='TUI and CLI client for the Transmission daemon'
 url='https://github.com/rndusr/stig'
 provides=("stig=${pkgver}")
 depends=(
     'python'
-    'python-urwid'
+    'python-urwid<=2.4.1'
     'python-urwidtrees'
     'python-aiohttp'
     'python-pyxdg'
