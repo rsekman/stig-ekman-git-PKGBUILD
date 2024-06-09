@@ -1,7 +1,7 @@
 pkgbase = stig-ekman-git
 	pkgdesc = TUI and CLI client for the Transmission daemon
 	pkgver = v0.12.9a0.r74.geb0003a8
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/rndusr/stig
 	arch = any
 	license = GPL

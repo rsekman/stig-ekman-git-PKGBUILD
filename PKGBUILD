@@ -4,7 +4,7 @@
 _pkgname=stig
 pkgname=${_pkgname}-ekman-git
 pkgver=v0.12.9a0.r74.geb0003a8
-pkgrel=1
+pkgrel=2
 pkgdesc='TUI and CLI client for the Transmission daemon'
 url='https://github.com/rndusr/stig'
 provides=("stig=${pkgver}")
